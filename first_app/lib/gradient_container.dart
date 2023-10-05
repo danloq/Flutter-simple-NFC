@@ -9,6 +9,8 @@ class GradientContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: double.infinity,
+      height: double.infinity,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: colors,
@@ -17,7 +19,7 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: Container(
-        margin: const EdgeInsets.all(50),
+        padding: const EdgeInsets.all(50),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: children,

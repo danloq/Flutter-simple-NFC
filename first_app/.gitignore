@@ -9,8 +9,6 @@
 .history
 .svn/
 migrate_working_dir/
-/Users/daniel/Documents/Repos/Flutter course/first_app/lib/gradient_container.dart
-/Users/daniel/Documents/Repos/Flutter course/first_app/lib/styled_text.dart
 
 # IntelliJ related
 *.iml
